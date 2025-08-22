@@ -5,7 +5,6 @@ import { useEffect, useState } from "react";
 const navItems = [
   { name: "Home", href: "#hero" },
   { name: "Projects", href: "#projects" },
-  { name: "Contact", href: "#contact" },
 ];
 
 export const NavBar = () => {
@@ -32,7 +31,6 @@ export const NavBar = () => {
           className="text-xl font-bold text-primary flex items-center"
           href="#hero"
         >
-         
         </a>
 
         {/* desktop nav */}
