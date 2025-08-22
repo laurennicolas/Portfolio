@@ -57,19 +57,7 @@
       transform: translateY(0);
     }
   }
-  @keyframes meteor {
-    0% {
-      transform: rotate(215deg) translateX(0);
-      opacity: 1;
-    }
-    70% {
-      opacity: 1;
-    }
-    100% {
-      transform: rotate(215deg) translateX(-500px);
-      opacity: 0;
-    }
-  }
+
 }
 
 @layer base{
@@ -130,12 +118,18 @@
   @apply transition-transform duration-300 hover:scale-[1.02] hover:shadow-lg;
 }
 
+@utility gradient-border {
+  @apply relative rounded-md;
+  background: linear-gradien(to right, hsl(var(--card)),hsl(var(--card)));
+  background-clip: padding-box;
+  border: 1px solid transparent; 
+}
+
 @utility cosmic-button {
   @apply px-6 py-2 rounded-full bg-primary text-primary-foreground font-medium 
          transition-all duration-300 hover:shadow-[0_0_10px_rgba(139,92,246,0.5)]
          hover:scale-105 active:scale-95;
 }
-
 
 #root{
   max-width: 100%;
