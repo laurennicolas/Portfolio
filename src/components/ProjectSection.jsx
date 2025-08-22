@@ -67,7 +67,7 @@ export const ProjectSection = () => {
                       <a
                         className="cosmic-button text-s w-fit flex items-center mx-auto mr-1"
                           target="_blank"
-                        href= {project.githubURL}
+                        href= {project.demoURL}
                        >
                          <div className = "mr-1"> Live Link </div> <ExternalLink size={20} />
                        </a>
