@@ -7,7 +7,7 @@ const projects = [
         description: "A disaster monitoring dashboard that identifies current disasters and tracks public sentiment. This enhances situational awareness for first responders, researchers, and the general public.",
         image: "/projects/Disaster Dashboard.png",
         tags: ["Vite.js" , "Tailwind CSS", "RadixUI", "Python", "Flask", "Render"],
-        demoURL: "https://disaster-sentiment-tracker.vercel.app/",
+        demoURL: "https://disaster-sentiment-tracker.vercel.app",
         githubURL: "https://github.com/syl15/CSProject"
     },
     {
