@@ -13,7 +13,7 @@ const projects = [
     {
         id: 2, 
         title: "Concrete Progress Visualization",
-        description: "A PowerBI dashboard that automated concrete progress for Train 1 tracking by designing a SQL-powered data pipeline.",
+        description: "A PowerBI dashboard that automates Liquified Natural Gas: Train 1 concrete progress with SQL-powered data pipeline and map visual.",
         image: "/projects/Disaster Dashboard.png",
         tags: ["Power BI" , "mySQL", "Mircosoft Excel", "Primerva 6"],
         demoURL: "#",
@@ -46,7 +46,7 @@ export const ProjectSection = () => {
                   <img
                     src={project.image}
                     alt={project.title}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                    className="h-full w-full object-cover transition-transform duration-500 group-hover:scale-110"
                   />
                 </div>
   
